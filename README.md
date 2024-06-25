@@ -11,8 +11,9 @@ contract Example {
 }
 ```
 In the above example, the name of the smart contract is Example and it created a type called `example`, which can be named anything. 
-To create a new smart contract you will have to create a type with the smart contract's name and create a variable with it, just like it was done above `Example public example;` and then create a new smart contract with the `new` keyword. 
+To create a new smart contract, create a type with the smart contract's name and create a variable with it, just like it was done above `Example public example;` and then create a new smart contract with the `new` keyword. 
 
 The format for creating a variable in Solidity is `type visibility name;`
 
 ## Imports
+We write imports to make calling a contract from another contract possible.
