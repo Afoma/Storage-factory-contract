@@ -16,4 +16,6 @@ To create a new smart contract, create a type with the smart contract's name and
 The format for creating a variable in Solidity is `type visibility name;`
 
 ## Imports
-We write imports to make calling a contract from another contract possible.
+We write imports to make calling a contract from another contract possible without pasting the entire content of that contract into the contract that is calling it. It is always best practice to default to or use named imports. For example:
+`import {StorageFactory"} from "./StorageFactory.sol";`
+
