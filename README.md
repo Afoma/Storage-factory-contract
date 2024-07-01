@@ -20,3 +20,4 @@ The format for creating a variable in Solidity is `type visibility name;`
 We write imports to make calling a contract from another contract possible without pasting the entire content of that contract into the contract that is calling it. It is always best practice to default to or use named imports. For example:
 `import {StorageFactory"} from "./StorageFactory.sol";`
 
+We only create new instances of a contract in another contract when that contract's instance we are creating already exists, either in another file ( and has already been imported) or in the current file in which it is being called. So if we will use the variable again in the contract, then 
