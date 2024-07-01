@@ -4,14 +4,15 @@ The ability of a smart contract to interact with another smart contract is calle
 
 ```
 contract Example {
+  Example public example;
+  
   function store() public{
-    Example public example;
     example = new Example();
   }
 }
 ```
 In the above example, the name of the smart contract is Example and it created a type called `example`, which can be named anything. 
-To create a new smart contract, create a type with the smart contract's name and create a variable with it, just like it was done above `Example public example;` and then create a new smart contract with the `new` keyword. 
+To create a new smart contract, create a type with the smart contract's name and create a variable with it, just like it was done above `Example public example;`, create a function and within it, create a new smart contract with the `new` keyword. 
 
 The format for creating a variable in Solidity is `type visibility name;`
 
