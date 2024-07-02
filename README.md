@@ -29,4 +29,5 @@ If we intend to create an instance of a smart contract and we intend to make a p
 ` name-of-imported-contract visibility name-of-variable-being-created`
 
 For instance, `SimpleStorage public simpleStorage` means `simpleStorage` is a variable of `SimpleStorage` contract.
-`SimpleStorage[] public simpleStorage` means `simpleStorage` is an array of `SimpleStorage` contracts. `address[] public simpleStorage` means `simpleStorage` is an array of adresses.
+`SimpleStorage[] public simpleStorage` means `simpleStorage` is an array of `SimpleStorage` contracts. `address[] public simpleStorage` means `simpleStorage` is an array of addresses.
+
